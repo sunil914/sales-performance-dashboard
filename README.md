@@ -5,9 +5,9 @@ End-to-end data analytics project using Excel, SQL (SQLite), and Tableau to anal
 
 ## Tools
 - Excel - data cleaning and feature engineering
-- SQLite – SQL aggregation
-- Tableau Public – dashboard visualization
-- GitHub – project version control
+- SQLite - SQL aggregation
+- Tableau Public - dashboard visualization
+- GitHub - project version control
 
 ## Process
 1. Cleaned data in Excel and created Year / Month columns
