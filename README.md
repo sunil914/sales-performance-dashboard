@@ -28,5 +28,5 @@ End-to-end data analytics project using Excel, SQL (SQLite), and Tableau to anal
 ## Files
 - data/superstore_final.csv
 - sql/views.sql
-- tableau/sales_dashboard.twbx
+- tableau/sales performance dashboard.twbx
 - screenshots/dashboard.png
