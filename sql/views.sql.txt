@@ -1,0 +1,50 @@
+-- Overall KPI
+CREATE VIEW v_overall_kpi AS
+SELECT
+  SUM(Revenue) AS total_revenue,
+  SUM(Profit) AS total_profit,
+  SUM(Units_Sold) AS total_units
+FROM sales;
+
+-- Monthly Trend
+CREATE VIEW v_monthly_trend AS
+SELECT
+  Year,
+  Month_Number,
+  printf('%04d-%02d', Year, Month_Number) AS year_month,
+  SUM(Revenue) AS total_revenue,
+  SUM(Profit) AS total_profit,
+  SUM(Units_Sold) AS total_units
+FROM sales
+GROUP BY Year, Month_Number
+ORDER BY Year, Month_Number;
+
+-- Region KPI
+CREATE VIEW v_region_kpi AS
+SELECT
+  Region,
+  SUM(Revenue) AS total_revenue,
+  SUM(Profit) AS total_profit,
+  SUM(Units_Sold) AS total_units
+FROM sales
+GROUP BY Region;
+
+-- Category KPI
+CREATE VIEW v_category_kpi AS
+SELECT
+  Category,
+  SUM(Revenue) AS total_revenue,
+  SUM(Cost) AS total_cost,
+  SUM(Profit) AS total_profit
+FROM sales
+GROUP BY Category;
+
+-- Product KPI
+CREATE VIEW v_product_kpi AS
+SELECT
+  Product,
+  SUM(Revenue) AS total_revenue,
+  SUM(Profit) AS total_profit,
+  SUM(Units_Sold) AS total_units
+FROM sales
+GROUP BY Product;
