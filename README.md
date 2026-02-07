@@ -4,7 +4,7 @@
 End-to-end data analytics project using Excel, SQL (SQLite), and Tableau to analyze sales performance.
 
 ## Tools
-- Excel – data cleaning and feature engineering
+- Excel - data cleaning and feature engineering
 - SQLite – SQL aggregation
 - Tableau Public – dashboard visualization
 - GitHub – project version control
@@ -17,7 +17,7 @@ End-to-end data analytics project using Excel, SQL (SQLite), and Tableau to anal
 5. Built Tableau dashboard
 
 ## Dashboard
-PASTE YOUR TABLEAU PUBLIC LINK HERE
+(https://public.tableau.com/app/profile/sunil.chaudhary3562/viz/SalesPerformanceDashboard_17704542536260/Dashboard1?publish=yes)
 
 ## Key Insights
 - Monthly revenue trends identified
@@ -30,5 +30,3 @@ PASTE YOUR TABLEAU PUBLIC LINK HERE
 - sql/views.sql
 - tableau/sales_dashboard.twbx
 - screenshots/dashboard.png
-  
-Tableau link: https://public.tableau.com/app/profile/sunil.chaudhary3562/viz/SalesPerformanceDashboard_17704542536260/Dashboard1?publish=yes
